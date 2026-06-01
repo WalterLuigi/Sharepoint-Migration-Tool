@@ -1,0 +1,92 @@
+# Build outputs
+bin/
+obj/
+dist/
+dist2/
+publish/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+publish/
+*.pubxml
+*.publishsettings
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Test results
+TestResults/
+
+# === SENSITIVE — Never commit these ===
+
+# Configuration files with real credentials
+config/migration-config.json
+PowerShell/config/migration-config.json
+**/migration-config.json
+!**/migration-config.template.json
+
+# Certificate files (private keys — NEVER commit)
+certs/
+PowerShell/certs/
+**/*.pfx
+**/*.pem
+**/*.cer
+**/*.crt
+**/*.key
+**/*.p12
+
+# Claude Code local settings (may contain personal paths)
+.claude/
+
+# Encrypted password blobs and secrets
+**/secrets.json
+**/appsettings.local.json
+
+# === END SENSITIVE ===
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp files
+temp/
+*.tmp

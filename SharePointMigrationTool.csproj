@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>SharePointMigrationTool</AssemblyName>
+    <RootNamespace>SharePointMigrationTool</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>RoyalTechnology</Authors>
+    <Description>SharePoint Tenant-to-Tenant Migration Tool</Description>
+  </PropertyGroup>
+
+</Project>

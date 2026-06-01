@@ -1,0 +1,34 @@
+{
+  "sourceTenant": {
+    "tenantId": "",
+    "appId": "",
+    "thumbprint": "",
+    "certPath": "",
+    "encryptedPassword": ""
+  },
+  "targetTenant": {
+    "tenantId": "",
+    "appId": "",
+    "thumbprint": "",
+    "certPath": "",
+    "encryptedPassword": ""
+  },
+  "migration": {
+    "targetSiteUrl": "",
+    "dryRunResults": {
+      "files": 0,
+      "executed": null,
+      "folders": 0
+    },
+    "tempPath": "./temp",
+    "libraryName": "Documents",
+    "sourceSiteUrl": ""
+  },
+  "metadata": {
+    "setupComplete": false,
+    "lastMigration": null,
+    "lastDryRun": null,
+    "lastModified": null,
+    "created": null
+  }
+}
